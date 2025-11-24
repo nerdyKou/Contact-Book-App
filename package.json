@@ -26,8 +26,7 @@
     "electron-build": "npm run build && electron-builder",
     "electron-build-win": "npm run build && electron-builder --win",
     "electron-build-mac": "npm run build && electron-builder --mac",
-    "electron-build-linux": "npm run build && electron-builder --linux",
-    "postinstall": "electron-builder install-app-deps"
+    "electron-build-linux": "npm run build && electron-builder --linux"
   },
   "eslintConfig": {
     "extends": [

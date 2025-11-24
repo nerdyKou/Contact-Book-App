@@ -1,0 +1,21 @@
+# Electron files (not needed for web deployment)
+electron-main.js
+electron-preload.js
+
+# Electron builder output
+dist/
+release/
+
+# Node modules (Vercel handles this)
+node_modules/
+
+# Development files
+.git/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
